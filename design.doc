@@ -1,0 +1,43 @@
+SAMPLE RUN:
+
+INPUT: Poppie Panther 3045
+OUTPUT: PanthP45
+
+===========================================================
+DESIGN:
+
+a) Inputs
+
+firstName - string
+lastName - string
+fourDigits -int
+
+
+
+-----------------------------------------------------------
+b) Outputs
+
+userName - string
+
+-----------------------------------------------------------
+c) Calculations
+
+fourDigits % 100 = last 2 digits
+
+-----------------------------------------------------------
+d) Pseudocode
+
+DECLARE firstName string
+DECLARE lastName string
+DECLARE fourDigits int
+DECLARE userName string
+DISPLAY Welcome message and prompt
+INPUT firstName
+INPUT lastName
+INPUT fourDIgits
+IF lastName len < 5
+  pass
+ELSE
+  lastName = lastName.substr(0, 5)
+userName = lastName + firstName.substr(0, 1) + to_string(fourDigits % 100)
+DISPLAY username with exit message
