@@ -1,12 +1,3 @@
-/*****************************************************************************
-# Author:           Devri Anderson, Noah Kelley
-# Lab:              Discussion #5
-# Date:             October 29, 2021
-# Description:      This program creates a login name.
-# Input:            firstName, lastName, fourDigits
-# Output:           userName
-# Sources:          Zybooks Ch. 5
-******************************************************************************/
 #include <iostream>
 #include <string>
 
